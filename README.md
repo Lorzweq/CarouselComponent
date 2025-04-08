@@ -7,10 +7,9 @@ A stylish and customizable 3D carousel component built with React. Supports any 
 ##  Features
 
 - 3D-style rotating cards using `rotateY` and `translateZ`
-- Supports any content — images, text, custom components
+- Supports any content — images, text
 - Tailwind CSS compatible (optional)
-- Fully responsive layout
-- Smooth infinite navigation
+- Responsive layout
 
 ---
 
