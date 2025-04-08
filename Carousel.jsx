@@ -41,7 +41,7 @@ const Carousel = ({ items }) => {
                 const position = calculatePosition(index);
                 const rotationY = position * 45; // Adjust for smooth rotation
 
-                return (
+               return (
                     <div
                         key={index}
                         className="carousel-card"
@@ -51,7 +51,12 @@ const Carousel = ({ items }) => {
                             zIndex: items.length - Math.abs(position),
                         }}
                     >
-                        {item}
+                        <img
+                            src={item}
+                            alt={`Carousel item ${index + 1}`}
+                            className="carousel-image"
+                            style={{ width: "100%", height: "auto" }}
+                        />
                     </div>
                 );
             })}
