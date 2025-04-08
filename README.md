@@ -32,6 +32,7 @@ import "./styles/Carousel.css"; // Adjust path as needed
 
 ```
 ### 2. Provide Items as JSX
+```
 const items = [
   <img src="/images/1.jpg" alt="Slide 1" />,
   <img src="/images/2.jpg" alt="Slide 2" />,
@@ -39,5 +40,5 @@ const items = [
 ];
 
 <Carousel items={items} />
-
+```
 
